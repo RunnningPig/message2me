@@ -15,28 +15,30 @@ cd message2me && bash install.sh
 
 * You need have a [twilio account](https://www.twilio.com/try-twilio).
 
-* Get following three parameters by [Twilio Getting Started](https://www.twilio.com/console/sms/getting-started/):
-
+* Get following three parameters in [Twilio Getting Started](https://www.twilio.com/console/sms/getting-started/):
+  
   * account_sid
-
+  
   * auth_token
-
+  
   * from_number
 
-* Configurate `twilio_account_sid`, `twilio_auth_token`, `twilio_from_number` and `twilio_to_number` parameters in `message2me.conf` file.
+* Configurate `twilio_account_sid`, `twilio_auth_token`, `twilio_from_number` and `twilio_to_number` parameters in `message2me.conf` .
 
-* Set the `enable_twilio` value to `true` in `message2me.conf` file.
+* Set the `enable_twilio` to `true` in `message2me.conf` .
 
 ### Using Telegram-bot
 
 * You need have a [telegram account](https://telegram.org/).
 
-* Get **your chat id** by [get-id-bot](https://telegram.me/get_id_bot).
+* Get **your chat id** from [get-id-bot](https://telegram.me/get_id_bot).
 
 * Create a bot and get **the bot authorization token** referring to [how-do-i-create-a-bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot).
 
-* Configurate `telegram_chat_id` and `telegram_token` parameters in `message2me.conf` file.
+* Configurate `telegram_chat_id` and `telegram_token` in `message2me.conf`.
 
-* Set the `enable_telegram` value to `true` in `message2me.conf` file.
+* Set the `enable_telegram` to `true` in `message2me.conf` .
 
-If all is ok, you just execute `message2me <your_message>`.
+If all is ok, you just execute `message2me <your_message>`，and the mesaage will be send to you.
+
+
